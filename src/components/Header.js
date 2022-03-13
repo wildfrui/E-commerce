@@ -10,13 +10,20 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header__container">
-      <Link className="header__link" to="/">
-        Home
-      </Link>
-      <Link className="header__link" to="/shop">
-        Shop
-      </Link>
-      <GoogleAuth></GoogleAuth>
+      <h2 className="header__title">smile</h2>
+
+      <div className="header__options">
+        <Link className="header__link" to="/">
+          home
+        </Link>
+        <Link className="header__link" to="/about">
+          about us
+        </Link>
+        <Link className="header__link" to="/shop">
+          shop
+        </Link>
+        <GoogleAuth></GoogleAuth>
+      </div>
     </div>
   );
 };

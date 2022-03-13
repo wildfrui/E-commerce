@@ -2,13 +2,15 @@
   display: flex;
 }
 #google__button {
+  margin-right: 5px;
   background-color: transparent;
   border: none;
 }
 .google__status {
-  color: #fff;
+  color: #203239;
   font-size: 24px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
 }
 .google__pic {
   width: 45px;
