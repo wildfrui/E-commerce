@@ -1,9 +1,25 @@
 import React from "react";
+import "./ProductList.css";
 
-class ShopList extends React.Component {
-  render() {
-    return <div>shoplist</div>;
-  }
-}
+const ProductList = () => {
+  return (
+    <div className="shop__products products">
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+      <div className="products__item">Product</div>
+    </div>
+  );
+};
 
-export default ShopList;
+export default ProductList;

@@ -1,0 +1,18 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4b499;
+  margin-left: 40px;
+  max-width: 60%;
+}
+
+.products__item {
+  border: 2px solid #020202;
+  margin-right: 20px;
+  margin: 20px;
+  background-color: #506d84;
+  width: 280px;
+  height: 280px;
+}
