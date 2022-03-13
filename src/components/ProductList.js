@@ -2,7 +2,7 @@ import React from "react";
 
 class ShopList extends React.Component {
   render() {
-    return <div></div>;
+    return <div>shoplist</div>;
   }
 }
 

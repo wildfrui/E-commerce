@@ -1,8 +1,9 @@
 //external deps
 import React from "react";
 import { Link } from "react-router-dom";
-//internal deps
 
+//internal deps
+import GoogleAuth from "./GoogleAuth";
 //css deps
 import "./Header.css";
 
@@ -15,6 +16,7 @@ const Header = () => {
       <Link className="header__link" to="/shop">
         Shop
       </Link>
+      <GoogleAuth></GoogleAuth>
     </div>
   );
 };

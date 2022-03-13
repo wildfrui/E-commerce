@@ -1,0 +1,16 @@
+.google__auth {
+  display: flex;
+}
+#google__button {
+  background-color: transparent;
+  border: none;
+}
+.google__status {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+.google__pic {
+  width: 45px;
+  border-radius: 50%;
+}
