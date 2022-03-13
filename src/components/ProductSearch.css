@@ -1,7 +1,8 @@
 .search {
   display: inline-flex;
   justify-content: center;
-  background-color: black;
+  background-color: #fff;
   width: 20%;
   height: 600px;
+  border: 2px solid black;
 }
